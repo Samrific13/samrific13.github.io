@@ -1,29 +1,29 @@
 <!doctype html5>
 <html>
-  <h1>First Real Site </h1>
+  <h1>Crazy Ball </h1>
   <head>
     <title>The Game of Pong </title>
     <script type="text/javascript">
       // Time in milliseconds before next refresh
-      var REFRESH_TIME = 10;
+      var REFRESH_TIME = 15;
 
       // Width and height of canvas
       var CANVAS_WIDTH = 500;
       var CANVAS_HEIGHT = 300;
 
       // Radius of the ball
-      var BALL_RADIUS = 10;
+      var BALL_RADIUS = 14;
 
       // Color of the ball
-      var BALL_COLOR = "#0000ff";
+      var BALL_COLOR = #"00FFFF";
 
       // The x and y position of the ball. Start in the center
-      var ballX = CANVAS_WIDTH / 2;
-      var ballY = CANVAS_HEIGHT / 2;
+      var ballX = CANVAS_WIDTH / 19;
+      var ballY = CANVAS_HEIGHT / 27;
 
       // The current speed of the ball
-      var dx = 1;
-      var dy = 5;
+      var dx = 42;
+      var dy = 67;
 
       /**
        * This function takes a 2d canvas context and draws a ball on it at ballX and ballY
@@ -72,10 +72,10 @@
         border-left-width: 2px;
         border-bottom-width: 2px;
         border-right-width: 2px;
-        border-top-color: black;
-        border-left-color: black;
+        border-top-color: Red;
+        border-left-color: Blue;
         border-bottom-color: black;
-        border-right-color: black;
+        border-right-color: Green;
         border-top-style: solid;
         border-left-style: solid;
         border-bottom-style: solid;
@@ -84,7 +84,7 @@
     </style>
   </head>
   <body>
-    <canvas id="pongCanvas" width="500" height="300"></canvas>
+    <canvas id="pongCanvas" width="850" height="600"></canvas>
   </body>
 </html> 
 
